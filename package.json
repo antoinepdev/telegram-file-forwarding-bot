@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node --watch --env-file .env.dev index.mjs",
-    "prod": "node --env-file .env index.mjs",
-    "start": "node index.mjs"
+    "dev": "node --watch --env-file .env.dev index.js",
+    "prod": "node --env-file .env index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "antoinepdev",

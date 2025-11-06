@@ -1,4 +1,4 @@
-import { bot, fileStorageId } from "../config.mjs"
+import { bot, fileStorageId } from "../config.js"
 
 export async function forwardMessage (chatId, fileId) {
   try {

@@ -1,5 +1,5 @@
-import { bot, fileStorageId, botBaseUrl } from "../config.mjs"
-import { serverError } from "../utils/serverError.mjs"
+import { bot, fileStorageId, botBaseUrl } from "../config.js"
+import { serverError } from "../utils/serverError.js"
 
 bot.on("message", async msg => {
   const chatId = msg.chat.id

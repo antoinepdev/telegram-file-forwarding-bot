@@ -1,6 +1,6 @@
-import { bot, welcomeMessage } from "../config.mjs"
-import { forwardMessage } from "../utils/forwardMessage.mjs"
-import { sendMessage } from "../utils/sendMessage.mjs"
+import { bot, welcomeMessage } from "../config.js"
+import { forwardMessage } from "../utils/forwardMessage.js"
+import { sendMessage } from "../utils/sendMessage.js"
 
 bot.onText(/^\/start/, async msg => {
   const chatId = msg.chat.id

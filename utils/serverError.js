@@ -1,4 +1,4 @@
-import { bot } from "../config.mjs";
+import { bot } from "../config.js";
 
 async function serverError(msg) {
   const chatId = msg.chat.id

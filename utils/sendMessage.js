@@ -1,4 +1,4 @@
-import { bot } from "../config.mjs"
+import { bot } from "../config.js"
 
 export async function sendMessage (chatId, text) {
   try {
